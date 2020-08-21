@@ -1,4 +1,4 @@
-# ================ Monster_API(Chasse aux monstres) ==========================
+# == Monster_API(Chasse aux monstres) ==
 
     Bonjour , cette projet consiste à récupérer les données dans une site de jeux "Dofus", par exemples de cette données :
 
@@ -20,4 +20,6 @@
 
         ruby app.rb
 
-# Cette projet est réaliser par RATSIMBAZAFY Marko William
+Cette projet est réaliser par :
+
+#  RATSIMBAZAFY Marko William
