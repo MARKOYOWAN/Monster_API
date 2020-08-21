@@ -1,14 +1,14 @@
 require 'httparty'
 require_relative 'lib/project'
 
-# Execution du class Larves
+# ===== Class Larves =====
 larves = Larves.new
 larves.to_json_larves
 
-# Execution du class Monstres_des_cavernes
-monstres1 = Monstres_des_cavernes.new
-monstres1.to_json_monsters1
+# ===== Class Monstres_des_cavernes =====
+cavernes = Monstres_des_cavernes.new
+cavernes.to_json_monstres_caverne
 
-# Execution du class Monstres_des_plaines
-monstre2 = Monstres_des_plaines.new
-monstre2.to_json_monsters2
+# ===== Class Monstres_des_plaines =====
+plaine_herbeuse = Monstres_des_plaines.new
+plaine_herbeuse.to_json_plaine_herbeuse

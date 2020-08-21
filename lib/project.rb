@@ -20,7 +20,7 @@ class Monstres_des_cavernes
     @type = HTTParty.get('https://fr.dofus.dofapi.fr/monsters?filter[where][type]=Monstres des cavernes')
   end
 
-  def to_json_monsters1
+  def to_json_monstres_caverne
     File.open("./db/monstres_caverne.json", 'w') do |file|
       file.write(@type)
     end
@@ -33,7 +33,7 @@ class Monstres_des_plaines
     @type = HTTParty.get('https://fr.dofus.dofapi.fr/monsters?filter[where][type]=Monstres des Plaines herbeuses')
   end
 
-  def to_json_monsters2
+  def to_json_plaine_herbeuse
     File.open("./db/monstre_plaine_herbeuse.json", 'w') do |file|
       file.write(@type)
     end
